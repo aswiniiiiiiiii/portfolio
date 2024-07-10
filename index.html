@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=DM+Serif+Display:ital@0;1&family=Playwrite+DE+Grund:wght@100..400&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!--animate style cdn  -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!-- aos animation cdn -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <img class="logo" src="./images/logo.png" alt="no image">
+            <ul>
+                <li class="list-items"><a class="links" href="#container">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="links" href="#skill">SKILLS</a></li>
+                <li class="list-items"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__wobble" id="username">I'm Ana <span id="lname">Steel</span></h1>
+                <p id="user-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    <br>
+                    Doloribus hic sint minus! Iusto nobis earum adipisci! ?
+                </p>
+                <a id="download" href="">DOWNLOAD CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/shape.png" alt="shape">
+                <img id="girl" class="group1" src="./images/person.png" alt="girl">
+            </div>
+        </section>
+        <!-- abut me -->
+        <section id="about">
+            <div class="section-head">
+                <h2 class="main-head">About Me</h2>
+                <span class="sub-head">Introduction</span>
+            </div>
+            <div class="about-body">
+                <div data-aos="fade-right" class="about-img">
+                    <img src="./images/about.jpeg" alt="">
+                </div>
+
+                <div class="about-content">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, fugiat distinctio minus aliquam
+                        beatae, doloremque sit at, ex nisi earum molestias
+                        Possimus, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos eaque quod harum libero repellat dolor odio blanditiis error est eum. </p>
+
+                    <div class="informations">
+                        <div class="info-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Aswini</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>799456789</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>aswinips787@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+         <section id="skill" class="skill">
+            <div class="section-head">
+                <h2 class="main-head">Skills</h2>
+                <span class="sub-head">My Skills</span>
+            </div>
+           <div class="skill-contents">
+                <div class="progress-bars">
+                    <!-- html progress bar -->
+                    <div  class="bar">
+                        <h3 class="bar-haed">HTML</h3>
+                        <span class="bar-percent">89%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="zoom-in-right" data-aos-duration="300" class="base-bar html-bar"></div>
+                    </div>
+                    <div class="bar">
+                        <h3 class="bar-haed">CSS</h3>
+                        <span class="bar-percent">82%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="zoom-in-right" data-aos-duration="300" class="base-bar css-bar"></div>
+                    </div>
+                    <div class="bar">
+                        <h3 class="bar-haed">JavaScript</h3>
+                        <span class="bar-percent">79%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="zoom-in-right" data-aos-duration="300" class="base-bar js-bar"></div>
+                    </div>
+                    <div class="bar">
+                        <h3 class="bar-haed">react</h3>
+                        <span class="bar-percent">75%</span>
+                        <div class="base-bar"></div>
+                        <div data-aos="zoom-in-right" data-aos-duration="300" class="base-bar react-bar"></div>
+                    </div>
+    
+                </div>
+                <div data-aos="fade-up-left" class="skill-img">
+                    <img class="myskill" src="https://img.freepik.com/free-vector/programmer-working-flat-style_52683-15041.jpg?t=st=1720431125~exp=1720434725~hmac=770ec25adbb22ac58bd2adb2217146b84119b16e6f587c66ccd5e87bce2212b7&w=740" alt="no image">
+                </div>
+           </div>
+         </section>
+        <!-- contact -->
+         <section id="contact">
+            <div class="section-head">
+                <h2 class="main-head">Contact</h2>
+                <span class="sub-head">My Contacts</span>
+            </div>
+            <div class="icon-collections">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/aswinips/"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                
+                 <!-- github -->
+                 <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                 <!-- twitter -->
+                 <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-facebook-f brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- mail -->
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-solid fa-envelope brands"></i></a>
+                </div>
+            </div>
+         </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright"> &copy; My Portfolio Website - June 2024 , All Rights Reserved to &reg; Ana Steel</p>
+            <div class="icon up-arrow">
+                <a  href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- aos js  cdn link -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
